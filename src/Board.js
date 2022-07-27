@@ -3,7 +3,7 @@ import './Board.css';
 
 function Board() {
   return (
-
+    <h1>Hola</h1>
   );
 }
 
