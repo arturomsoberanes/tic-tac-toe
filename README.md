@@ -1,7 +1,7 @@
 <div align="center" id="top">
   <img src="./screenshot.png"  width="400px">   
 </div>
-# <h1 align="center">Fetch and Render Data - Exercise</h1>
+# <h1 align="center">Tic Tac Toe</h1>
 
 <p align="center">
   <a href="#dart-description">Description</a> &#xa0; | &#xa0; 
