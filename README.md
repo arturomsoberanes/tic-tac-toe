@@ -1,5 +1,5 @@
 <div align="center" id="top">
-  <img src="./src/img/screenshot.png"  width="400px">   
+  <img src="./screenshot.png"  width="400px">   
 </div>
 # <h1 align="center">Fetch and Render Data - Exercise</h1>
 
