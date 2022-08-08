@@ -1,70 +1,100 @@
-# Getting Started with Create React App
+<div align="center" id="top">
+  <img src="./src/img/screenshot.png"  width="400px">   
+</div>
+# <h1 align="center">Fetch and Render Data - Exercise</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  <a href="#dart-description">Description</a> &#xa0; | &#xa0; 
+  <a href="#dart-demo">Demo</a> &#xa0; | &#xa0;
+  <a href="#memo-improvements">Improvements</a> &#xa0; | &#xa0;
+  <a href="#art-technologies">Technologies</a> &#xa0; | &#xa0;
+  <a href="#white_check_mark-requirements">Requirements</a> &#xa0; | &#xa0;
+  <a href="#toolbox-installation">Installation</a> &#xa0; | &#xa0;
+  <a href="#joystickhow-to-play">How to Play</a> &#xa0; | &#xa0;
+  <a href="#briefcase-license">License</a> &#xa0; | &#xa0;
+  <a href="https://github.com/arturomsoberanes" target="_blank">Author</a>
+</p>
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
 
-### `npm start`
+## :dart: Description ##
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Tic Tac Toe is a project from week 16 of the MITXPRO "Full-Stack with MERN" certification, we created the classic Tic Tac Toe game.
+To make this project use [Create React App](https://create-react-app.dev/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## :dart: DEMO ##
 
-### `npm test`
+If you want to try it just click [here](https://arturomsoberanes.github.io/tic-tac-toe)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## :memo: Improvements ##
 
-### `npm run build`
+These are the list of currect improvements:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- :diamonds: Add a line for the winner.	
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## :art: Technologies ##
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [HTML](https://www.w3schools.com/html/)
+- [CSS](https://www.w3schools.com/css/)
+- [JavaScript](https://www.w3schools.com/js/)
+- [React](https://reactjs.org/)
 
-### `npm run eject`
+## :white_check_mark: Requirements ##
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Before starting :checkered_flag:, you need to have:
+- [Git](https://git-scm.com).
+- [Node.js](https://nodejs.org/en/).
+- [Create React App](https://create-react-app.dev/).
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## :toolbox: Installation ##
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Clone Repository
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+$ git clone https://github.com/arturomsoberanes/tic-tac-toe.git
+```
+Change the name of directory
 
-## Learn More
+```bash
+$ mv tic-tac-toe tic-tac-toe-2
+```
+Install Create React App.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+$ npx create-react-app my-app 
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Replace the files for the app.
 
-### Code Splitting
+```bash
+$ cp -r tic-tac-toe-2/ my-app/ 
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## :joystick:	How to Run ##
 
-### Analyzing the Bundle Size
+Access in directory
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+$ cd my-app
+```
 
-### Making a Progressive Web App
+Execute "start"
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+$ npm start
+```
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## :briefcase:	 License ##
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+This project is under license from MIT. For more details, see the [LICENSE](LICENSE) file.
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Made with :heart: by <a href="https://github.com/arturomsoberanes" target="_blank">Arturo Soberanes</a>
+
+&#xa0;
+
+<a href="#top">Back to top</a>
+
