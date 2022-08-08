@@ -23,28 +23,31 @@ function Board() {
   };
 
   function renderSquare(i){
-    return <Square id={i} newState={newState}></Square>
+    return <Square id={i} newState={newState} winner={winner}></Square>
   }
 
   return (
-    <div className="game-board">
-      <div className="grid-row">
-        {renderSquare(0)}
-        {renderSquare(1)}
-        {renderSquare(2)}
-      </div>
-      <div className="grid-row">
-        {renderSquare(3)}
-        {renderSquare(4)}
-        {renderSquare(5)}
-      </div>
-      <div className="grid-row">
-        {renderSquare(6)}
-        {renderSquare(7)}
-        {renderSquare(8)}
-      </div>
-      <div id="info">
-        <h1>{status}</h1>
+    <div className="container-game-board">
+      <h1 className="h1-tic">Tic Tac Toe</h1>
+      <div className="game-board">
+        <div className="grid-row">
+          {renderSquare(0)}
+          {renderSquare(1)}
+          {renderSquare(2)}
+        </div>
+        <div className="grid-row">
+          {renderSquare(3)}
+          {renderSquare(4)}
+          {renderSquare(5)}
+        </div>
+        <div className="grid-row">
+          {renderSquare(6)}
+          {renderSquare(7)}
+          {renderSquare(8)}
+        </div>
+        <div id="info">
+          <h1>{status}</h1>
+        </div>
       </div>
     </div>
   );
